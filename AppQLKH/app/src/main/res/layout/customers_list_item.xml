@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp">
+    <LinearLayout
+        android:id="@+id/itemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/vien_item"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/itemId"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:hint="ID"
+            tools:ignore="Suspicious0dp" />
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:hint="Name"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:background="@drawable/vienitem"
+            />
+        <TextView
+            android:id="@+id/itemAddress"
+            android:hint="Địa chỉ"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:background="#f5f5dc"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/itemPhone"
+            android:hint="Phone"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:fontFamily="monospace"
+            android:background="#f5f5dc"
+            android:padding="5dp" />
+        <TextView
+            android:id="@+id/itemEmail"
+            android:hint="Email"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="5dp"
+            android:padding="15dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
